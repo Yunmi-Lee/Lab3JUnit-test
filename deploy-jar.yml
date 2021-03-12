@@ -1,7 +1,7 @@
 ---
 - name: Deploy a jar file
   hosts: node1, node2
-  #remote_user: root
+  remote_user: root
   tasks:
     - name: Installing java8 package
       apt:
